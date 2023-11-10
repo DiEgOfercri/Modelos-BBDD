@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="998E62C2-F973-3D8C-71DA-19E040B72D94" name="Factura">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:20:22 UTC</createdTime>
+<ownerDesignName>morosos</ownerDesignName>
+<engineerTo>
+<item key="027099FE-0FE4-2A3D-6C92-C5BFEC695C7C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="EC5B9823-56FA-C77E-0D1F-9EDA10EEAEFB">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:28:21 UTC</createdTime>
+<ownerDesignName>morosos</ownerDesignName>
+<engineerTo>
+<item key="027099FE-0FE4-2A3D-6C92-C5BFEC695C7C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="importe" id="4D3DE792-1854-F410-7D3C-CF2784DC6893">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:28:37 UTC</createdTime>
+<ownerDesignName>morosos</ownerDesignName>
+<engineerTo>
+<item key="027099FE-0FE4-2A3D-6C92-C5BFEC695C7C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="08C5B03B-A601-48F4-C934-E257937C8A22">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:30:15 UTC</createdTime>
+<ownerDesignName>morosos</ownerDesignName>
+<engineerTo>
+<item key="027099FE-0FE4-2A3D-6C92-C5BFEC695C7C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pagada" id="4882829C-EC3B-7717-8257-B6556383E475">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:30:36 UTC</createdTime>
+<ownerDesignName>morosos</ownerDesignName>
+<engineerTo>
+<item key="027099FE-0FE4-2A3D-6C92-C5BFEC695C7C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="405B4AC9-7587-9E6B-0229-7BD290FB9286">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:37:38 UTC</createdTime>
+<generatorID>9395C41E-AB7E-1617-6723-67ED91E39F9B</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<engineerTo>
+<item key="027099FE-0FE4-2A3D-6C92-C5BFEC695C7C" value="true"/>
+</engineerTo>
+<referedAttribute>31A98CBE-C659-0295-6A42-8E952193E12B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="628F1A62-DB55-EFCE-9838-C9C905EBB5B9" name="Factura PK">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:28:34 UTC</createdTime>
+<ownerDesignName>morosos</ownerDesignName>
+<engineerTo>
+<item key="027099FE-0FE4-2A3D-6C92-C5BFEC695C7C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC5B9823-56FA-C77E-0D1F-9EDA10EEAEFB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

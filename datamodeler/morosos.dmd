@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="morosos" id="5F82FC87-D582-0AEF-56B8-EF253E31B9BF" version="3.5">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 06:58:03 UTC</createdTime>
+<ownerDesignName>morosos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5F82FC87-D582-0AEF-56B8-EF253E31B9BF</designId>
+</OSDM_Design>

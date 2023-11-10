@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FA58599-8294-E36F-ADD8-DB3FFD845C49" name="Factura">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>998E62C2-F973-3D8C-71DA-19E040B72D94</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F0ED71FE-9C44-19DC-6A11-3B64384E4A5D">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>EC5B9823-56FA-C77E-0D1F-9EDA10EEAEFB</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="importe" id="68DEEAC8-15D1-5D28-F011-42AF9F2ABA50">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>4D3DE792-1854-F410-7D3C-CF2784DC6893</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="A5A66FA5-7F01-67D1-9209-99E17A65AB0D">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>08C5B03B-A601-48F4-C934-E257937C8A22</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pagada" id="D03D1AA1-BA3C-5EF2-4208-FD55D50E9E88">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>4882829C-EC3B-7717-8257-B6556383E475</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_id" id="EDE09730-817A-BAE6-5E83-5713CAD3117B">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>405B4AC9-7587-9E6B-0229-7BD290FB9286</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="903FA5AF-0851-3E89-4686-24464DCA806F" referredColumn="9675E3F2-B3A1-0199-64CF-4D976C46D72A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5512FD0-6FCE-76C3-74B8-CE1A4596C110" name="Factura_PK">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>628F1A62-DB55-EFCE-9838-C9C905EBB5B9</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0ED71FE-9C44-19DC-6A11-3B64384E4A5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="003C7B83-8900-EC99-1010-6478AD449C0C" name="Factura_Cliente_FK">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>9395C41E-AB7E-1617-6723-67ED91E39F9B</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDE09730-817A-BAE6-5E83-5713CAD3117B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

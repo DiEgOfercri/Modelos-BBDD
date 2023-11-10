@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8329197-3E3D-25FC-E42D-F016231202F1" name="Cliente">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>43B7B0BA-8299-6CF2-0C7E-48E059BE1DA7</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9675E3F2-B3A1-0199-64CF-4D976C46D72A">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>31A98CBE-C659-0295-6A42-8E952193E12B</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="4C28BD98-D54A-4261-99AB-745E2A2C9A7F">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>C75EF186-3D6C-CDC2-3F48-7C6E0B8431FA</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="85840965-A44E-DA6D-045D-8FF4554396B1">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>1CBBB209-3918-7BC5-7182-2A8DE4DD6554</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="2F9A081F-3E3B-0CBB-00BE-E317FFB56A9E">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>028353C9-5ADD-7C95-19CC-56154B6836E7</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIF" id="A54F969D-FC96-AD30-25D7-FC1C2050C866">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>15E59FE2-3B64-F6D6-C8F9-EE3F9C9D041B</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E2CFA11-51C5-6C87-7779-DEC79CCDBC9C" name="Cliente_PK">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:47:53 UTC</createdTime>
+<generatorID>84220E40-956C-CE89-8293-32126FBF7E0C</generatorID>
+<ownerDesignName>morosos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9675E3F2-B3A1-0199-64CF-4D976C46D72A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

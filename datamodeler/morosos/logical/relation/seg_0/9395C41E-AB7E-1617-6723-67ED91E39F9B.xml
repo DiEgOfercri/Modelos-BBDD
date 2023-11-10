@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="debe" directorySegmentName="seg_0" id="9395C41E-AB7E-1617-6723-67ED91E39F9B">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-09-29 07:37:38 UTC</createdTime>
+<ownerDesignName>morosos</ownerDesignName>
+<engineerTo>
+<item key="027099FE-0FE4-2A3D-6C92-C5BFEC695C7C" value="true"/>
+</engineerTo>
+<sourcePk>84220E40-956C-CE89-8293-32126FBF7E0C</sourcePk>
+<targetPk>628F1A62-DB55-EFCE-9838-C9C905EBB5B9</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>43B7B0BA-8299-6CF2-0C7E-48E059BE1DA7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>998E62C2-F973-3D8C-71DA-19E040B72D94</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
