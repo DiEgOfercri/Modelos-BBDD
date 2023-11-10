@@ -1,3 +1,7 @@
+drop table Socio cascade constraints;
+drop table Alumno cascade constraints;
+drop table socioAlumno cascade constraints;
+
 CREATE TABLE Socio
 (
   socioId INT NOT NULL,
