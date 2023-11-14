@@ -1,11 +1,143 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T09:36:56.563Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="lFlxR9NccXw5J8GwgeWP" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T10:59:21.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6Ix4iewcITNrtYnd_SYq" version="22.1.0" type="github">
   <diagram name="Página-1" id="qKwDhnCiwPNc9SaC4BNa">
     <mxGraphModel dx="1050" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YrviUOaYqMqXsFpp3-eg-1" value="Supongamos que queremos modelizar las prácticas que realizan los diferentes profesores/as que imparten el módulo de base de datos en el Azarquiel (si incluyera módulo en el modelo nos podría salir una relación a 4 y la liamos), vamos a exponer con más detalle la situación para poder afinar más nuestro modelo: Este curso imparten base de datos Fernando a VS1DAW y Julio a S1DAM Y S1DAW. Julio usa los apuntes de Fernando por lo que las prácticas a realizar son las mismas. Lo normal es que cada profesor se ciña a su grupo/s pero podría pasar que uno de los dos se pusiera malito y el otro cubriera la falta. No tiene sentido repetir una misma práctica a un mismo grupo. En un momento dado podría pasar que Fernando ya haya terminado dos prácticas y Julio siguiera contando sus historias. Cada grupo tendrá que hacer todas las prácticas del curso y son unas poquitas." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="YrviUOaYqMqXsFpp3-eg-1" value="Supongamos que queremos modelizar las prácticas que realizan los diferentes profesores/as que imparten el módulo de base de datos en el Azarquiel (si incluyera módulo en el modelo nos podría salir una relación a 4 y la liamos), vamos a exponer con más detalle la situación para poder afinar más nuestro modelo: Este curso imparten base de datos Fernando a VS1DAW y Julio a S1DAM Y S1DAW. Julio usa los apuntes de Fernando por lo que las prácticas a realizar son las mismas. Lo normal es que cada profesor se ciña a su grupo/s pero podría pasar que uno de los dos se pusiera malito y el otro cubriera la falta. No tiene sentido repetir una misma práctica a un mismo grupo. En un momento dado podría pasar que Fernando ya haya terminado dos prácticas y Julio siguiera contando sus historias. Cada grupo tendrá que hacer todas las prácticas del curso y son unas poquitas." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="29" y="40" width="770" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-1" value="Profesor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-3" value="Practica" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="363" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-4" value="Grupo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="679" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-5" value="imparte" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="229" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-6" value="realiza" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="543" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yulLahvRHh0z7h0c_ufD-6" target="yulLahvRHh0z7h0c_ufD-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="450" as="sourcePoint" />
+            <mxPoint x="449" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yulLahvRHh0z7h0c_ufD-3" target="yulLahvRHh0z7h0c_ufD-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="450" as="sourcePoint" />
+            <mxPoint x="449" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-11" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yulLahvRHh0z7h0c_ufD-5" target="yulLahvRHh0z7h0c_ufD-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="450" as="sourcePoint" />
+            <mxPoint x="449" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-12" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yulLahvRHh0z7h0c_ufD-1" target="yulLahvRHh0z7h0c_ufD-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="450" as="sourcePoint" />
+            <mxPoint x="229" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-13" value="ID" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="694" y="480" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-14" value="ID" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="68" y="480" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-15" value="ID" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="378" y="480" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-17" value="nombre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="694" y="280" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-18" value="nombre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="328" y="280" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-19" value="nombre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="19" y="280" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-20" value="apellido" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="119" y="280" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-21" value="realizada&lt;br&gt;(calc)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="428" y="280" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-22" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yulLahvRHh0z7h0c_ufD-3" target="yulLahvRHh0z7h0c_ufD-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="370" as="sourcePoint" />
+            <mxPoint x="449" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yulLahvRHh0z7h0c_ufD-3" target="yulLahvRHh0z7h0c_ufD-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="370" as="sourcePoint" />
+            <mxPoint x="449" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yulLahvRHh0z7h0c_ufD-4" target="yulLahvRHh0z7h0c_ufD-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="370" as="sourcePoint" />
+            <mxPoint x="449" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yulLahvRHh0z7h0c_ufD-4" target="yulLahvRHh0z7h0c_ufD-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="370" as="sourcePoint" />
+            <mxPoint x="449" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yulLahvRHh0z7h0c_ufD-3" target="yulLahvRHh0z7h0c_ufD-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="370" as="sourcePoint" />
+            <mxPoint x="449" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yulLahvRHh0z7h0c_ufD-1" target="yulLahvRHh0z7h0c_ufD-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="370" as="sourcePoint" />
+            <mxPoint x="449" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yulLahvRHh0z7h0c_ufD-1" target="yulLahvRHh0z7h0c_ufD-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="370" as="sourcePoint" />
+            <mxPoint x="449" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-29" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yulLahvRHh0z7h0c_ufD-1" target="yulLahvRHh0z7h0c_ufD-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="370" as="sourcePoint" />
+            <mxPoint x="449" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-31" value="Este campo calculado será un campo boolean mantenido directamente por el profesor, que se encargará de marcar o no una casilla para indicar que se ha realizado la práctica." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=east;position2=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="510" y="190" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-32" value="(1:N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="169" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-33" value="(1:N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="309" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-34" value="N:M" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="239" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-35" value="(1:N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="483" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-36" value="(1:N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="623" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yulLahvRHh0z7h0c_ufD-37" value="N:M" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="553" y="340" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
