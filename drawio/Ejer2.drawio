@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T11:56:22.153Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="lnbeCp6cea5NFnHgje1s" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T11:58:37.355Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ZcZjGfQZbJQ_I_PTfvOs" version="22.1.1" type="github">
   <diagram name="Página-1" id="qKwDhnCiwPNc9SaC4BNa">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,19 +7,19 @@
         <mxCell id="YrviUOaYqMqXsFpp3-eg-1" value="Supongamos que queremos modelizar las prácticas que realizan los diferentes profesores/as que imparten el módulo de base de datos en el Azarquiel (si incluyera módulo en el modelo nos podría salir una relación a 4 y la liamos), vamos a exponer con más detalle la situación para poder afinar más nuestro modelo: Este curso imparten base de datos Fernando a VS1DAW y Julio a S1DAM Y S1DAW. Julio usa los apuntes de Fernando por lo que las prácticas a realizar son las mismas. Lo normal es que cada profesor se ciña a su grupo/s pero podría pasar que uno de los dos se pusiera malito y el otro cubriera la falta. No tiene sentido repetir una misma práctica a un mismo grupo. En un momento dado podría pasar que Fernando ya haya terminado dos prácticas y Julio siguiera contando sus historias. Cada grupo tendrá que hacer todas las prácticas del curso y son unas poquitas." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="29" y="40" width="770" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="yulLahvRHh0z7h0c_ufD-1" value="Profesor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="yulLahvRHh0z7h0c_ufD-1" value="Profesor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" parent="1" vertex="1">
           <mxGeometry x="53" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yulLahvRHh0z7h0c_ufD-3" value="Practica" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="yulLahvRHh0z7h0c_ufD-3" value="Practica" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" parent="1" vertex="1">
           <mxGeometry x="363" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yulLahvRHh0z7h0c_ufD-4" value="Grupo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="yulLahvRHh0z7h0c_ufD-4" value="Grupo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" parent="1" vertex="1">
           <mxGeometry x="679" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yulLahvRHh0z7h0c_ufD-5" value="imparte" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="yulLahvRHh0z7h0c_ufD-5" value="imparte" style="rhombus;whiteSpace=wrap;html=1;fillColor=#A680B8;" parent="1" vertex="1">
           <mxGeometry x="229" y="370" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yulLahvRHh0z7h0c_ufD-6" value="realiza" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="yulLahvRHh0z7h0c_ufD-6" value="realiza" style="rhombus;whiteSpace=wrap;html=1;fillColor=#A680B8;" parent="1" vertex="1">
           <mxGeometry x="543" y="370" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yulLahvRHh0z7h0c_ufD-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="yulLahvRHh0z7h0c_ufD-6" target="yulLahvRHh0z7h0c_ufD-4" edge="1">
@@ -46,13 +46,13 @@
             <mxPoint x="229" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yulLahvRHh0z7h0c_ufD-13" value="ID" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="yulLahvRHh0z7h0c_ufD-13" value="ID" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#FFCE9F;" parent="1" vertex="1">
           <mxGeometry x="694" y="480" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yulLahvRHh0z7h0c_ufD-14" value="ID" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="yulLahvRHh0z7h0c_ufD-14" value="ID" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#FFCE9F;" parent="1" vertex="1">
           <mxGeometry x="68" y="480" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yulLahvRHh0z7h0c_ufD-15" value="ID" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="yulLahvRHh0z7h0c_ufD-15" value="ID" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#FFCE9F;" parent="1" vertex="1">
           <mxGeometry x="378" y="480" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yulLahvRHh0z7h0c_ufD-17" value="nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
