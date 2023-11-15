@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T12:57:04.144Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.1" etag="DtgB8-5m4n_iRBNLrO44" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T12:58:12.553Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BtC9NZ8xJOrS3XhXWtqD" version="22.1.1" type="github">
   <diagram name="Página-1" id="l5P8DeTmiwiy51Mtxco_">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="X2FgnUZGWy85QauOfwDn-1" value="Necesitamos modelizar la base de datos de una aplicación destinada a venta y/o alquiler de vivienda, en esta ocasión sólo nos interesa almacenar los datos de los propietarios y de las casas, los propietarios los identificaremos por su dni y las casas por sus referencias catastrales. Para cada propietario grabaremos también su nombre y para cada casa su dirección. Un mismo propietario puede terner varias casas y una casa puede ser propiedad de varios propietarios, en ese caso indicaremos el porcentaje de propiedad que tiene cada una teniendo en cuenta que la suma debe ser el 100%. Probaremos a colocar el campo pp=porcentaje de propiedad tanto en cada una de las entidades como en la relación. Probar con diferentes modelos externos para ver cuál es la mejor solución." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="760" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
