@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T10:45:22.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.1" etag="B5OtEO_pZhxErje9guKD" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T10:49:27.804Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Ien8TMSVwa3z2oM5oaHE" version="22.1.1" type="github">
   <diagram name="Página-1" id="GKfL1z4syFyCUp2RwGY0">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="w6sKY5mbxoF5bSvWvFla-1" value="Quiero hacer una aplicación móvil que me permita llevar el control del consumo de mis coches (tengo un total de 4).&lt;br style=&quot;font-size: 13px;&quot;&gt;Siempre que voy a la gasolinera lleno el depósito, de esa forma tengo de repostaje a repostaje el consumo realizado.&lt;br style=&quot;font-size: 13px;&quot;&gt;Para saber ese consumo apuntaré en cada repostaje, la matricula del coche, los km que tiene el cuenta kilómetros, los litros que he echado y el coste total del repostaje.&lt;br style=&quot;font-size: 13px;&quot;&gt;Intenta modelizarlo incluyendo los km en la entidad coche (no se si será correcto), después crea un modelo físico en Access y comprueba este modelo externo.&lt;br style=&quot;font-size: 13px;&quot;&gt;Modelo externo (caso de la vida real para ver si funciona el modelo que hemos hecho):&lt;br style=&quot;font-size: 13px;&quot;&gt;- Llené el depósito de uno de mis coche el 3/9/2023, en ese momento ponía el cuenta km 600, entraron 30 litros y me costo 60€.&lt;br style=&quot;font-size: 13px;&quot;&gt;- Volví a llenarlo el 3/10/2023 porque ya estaba en reserva, en ese momento ponía el cuenta km 1800, entraron 60 litros y me costo 120€.&lt;br style=&quot;font-size: 13px;&quot;&gt;- Puedes saber el consumo que ha tenido el coche en litros/100km en el periodo que va del primer repostaje al segundo almacenando esos datos en tu modelo físico echo en Access?.&lt;br style=&quot;font-size: 13px;&quot;&gt;- Si lo calculo a mano veo que hice 1800-600=1200km y consumió 60 litros por lo que el consumo medio fue de 5 litros/100 km&lt;br style=&quot;font-size: 13px;&quot;&gt;Vuelve a modelizar pero poniendo el atributo km en su sitio correcto y repite el proceso." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="760" height="230" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
