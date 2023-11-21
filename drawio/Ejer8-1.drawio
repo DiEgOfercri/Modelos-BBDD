@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T18:31:10.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BAU0Mro1hEUdy_11fwcl" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T18:31:46.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="RqU6H4O0GreECNOlSefv" version="22.1.3" type="github">
   <diagram name="Página-1" id="ncUxo_lFp9L3yrcQ60K7">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="34" y="40" width="760" height="190" as="geometry" />
         </mxCell>
         <mxCell id="WOAQJwPyzZi3OoR79o7S-2" value="duda" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="570" y="270" width="200" height="200" as="geometry" />
+          <mxGeometry x="560" y="270" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="WOAQJwPyzZi3OoR79o7S-3" value="Para este ejercicio, podriamos crear una taba a parte para guardar la dirección predeterminada y otra para la de facturación, para evitar tener campos null en la mayoría de las direcciones. Y si no como podríamos hacerlo." style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WOAQJwPyzZi3OoR79o7S-2" vertex="1">
           <mxGeometry x="10" y="30" width="180" height="160" as="geometry" />
