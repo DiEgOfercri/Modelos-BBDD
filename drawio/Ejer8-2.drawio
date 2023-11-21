@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T20:31:04.654Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="fopKN02kh_xHii6di0u9" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T21:58:13.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="-2zituSXwGjaF8pqPx6j" version="22.1.3" type="github">
   <diagram name="Página-1" id="4BS_kcSu9RCZBbaW8UEV">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,13 +150,13 @@
         <mxCell id="MyS0ghMgtrrdCx2Y_S8_-48" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.frame;dx=10;whiteSpace=wrap;fillColor=#B9E0A5;" vertex="1" parent="MyS0ghMgtrrdCx2Y_S8_-51">
           <mxGeometry width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MyS0ghMgtrrdCx2Y_S8_-50" value="Tara" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="MyS0ghMgtrrdCx2Y_S8_-51">
-          <mxGeometry x="35" y="15" width="50" height="30" as="geometry" />
+        <mxCell id="MyS0ghMgtrrdCx2Y_S8_-50" value="Tarado" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="MyS0ghMgtrrdCx2Y_S8_-51">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MyS0ghMgtrrdCx2Y_S8_-53" value="ID" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#FFCE9F;" vertex="1" parent="1">
           <mxGeometry x="165" y="710" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MyS0ghMgtrrdCx2Y_S8_-54" value="nombre" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="MyS0ghMgtrrdCx2Y_S8_-54" value="stock" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="110" y="870" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MyS0ghMgtrrdCx2Y_S8_-55" value="descuento" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -257,6 +257,9 @@
         </mxCell>
         <mxCell id="MyS0ghMgtrrdCx2Y_S8_-99" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MyS0ghMgtrrdCx2Y_S8_-97" target="MyS0ghMgtrrdCx2Y_S8_-48">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MyS0ghMgtrrdCx2Y_S8_-100" value="1:N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="750" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
