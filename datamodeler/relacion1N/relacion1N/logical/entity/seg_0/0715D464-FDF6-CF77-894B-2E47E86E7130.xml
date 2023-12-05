@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0715D464-FDF6-CF77-894B-2E47E86E7130" name="Factura">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-05 09:03:03 UTC</createdTime>
+<ownerDesignName>relacion1N</ownerDesignName>
+<engineerTo>
+<item key="49252CD2-80EB-B26F-9EB3-06665E4B7676" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="93C52218-DAD7-00CE-1E06-8CE497F863E1">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-05 09:24:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[El id maximo sera 9999, porque no vamos a vender mas productos]]></commentInRDBMS>
+<ownerDesignName>relacion1N</ownerDesignName>
+<engineerTo>
+<item key="49252CD2-80EB-B26F-9EB3-06665E4B7676" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="E908848A-C619-CACD-7051-A8F3EBE8D8D7">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-05 09:24:46 UTC</createdTime>
+<comment><![CDATA[No usamos la hora y los segundos, solo el dia, mes y anio.]]></comment>
+<ownerDesignName>relacion1N</ownerDesignName>
+<engineerTo>
+<item key="49252CD2-80EB-B26F-9EB3-06665E4B7676" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="F4584795-AFFB-59C0-CB72-EAF5D31D6FA1">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-05 09:24:58 UTC</createdTime>
+<ownerDesignName>relacion1N</ownerDesignName>
+<engineerTo>
+<item key="49252CD2-80EB-B26F-9EB3-06665E4B7676" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pagada" id="72C96D9A-57ED-1F51-B75E-AC7006DA25E6">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-05 09:26:18 UTC</createdTime>
+<ownerDesignName>relacion1N</ownerDesignName>
+<engineerTo>
+<item key="49252CD2-80EB-B26F-9EB3-06665E4B7676" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DBBAD7BE-AB1A-F750-27D7-250211FA2CD4" name="Factura PK">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-05 09:27:47 UTC</createdTime>
+<ownerDesignName>relacion1N</ownerDesignName>
+<engineerTo>
+<item key="49252CD2-80EB-B26F-9EB3-06665E4B7676" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93C52218-DAD7-00CE-1E06-8CE497F863E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
