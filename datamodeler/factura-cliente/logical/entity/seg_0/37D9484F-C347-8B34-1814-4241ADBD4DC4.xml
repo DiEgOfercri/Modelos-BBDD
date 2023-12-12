@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37D9484F-C347-8B34-1814-4241ADBD4DC4" name="CLIENTE">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 08:41:06 UTC</createdTime>
+<ownerDesignName>factura-cliente</ownerDesignName>
+<engineerTo>
+<item key="B261752A-816F-6368-E3FD-4D816EF812DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="734B2277-194A-9B7C-F718-7FF17C3EDC70">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 08:41:11 UTC</createdTime>
+<ownerDesignName>factura-cliente</ownerDesignName>
+<engineerTo>
+<item key="B261752A-816F-6368-E3FD-4D816EF812DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FB04124E-6EA4-61D5-B533-7AFD59086541</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="CAF879BF-76D3-E2FF-576F-476E3A7248ED">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 08:46:21 UTC</createdTime>
+<ownerDesignName>factura-cliente</ownerDesignName>
+<engineerTo>
+<item key="B261752A-816F-6368-E3FD-4D816EF812DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3321224F-2051-132F-C01C-32DFC1156C6A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67E8ABF6-A82E-7DAD-9310-8D32D646831D" name="Cliente PK">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 08:41:14 UTC</createdTime>
+<ownerDesignName>factura-cliente</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B261752A-816F-6368-E3FD-4D816EF812DE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>734B2277-194A-9B7C-F718-7FF17C3EDC70</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

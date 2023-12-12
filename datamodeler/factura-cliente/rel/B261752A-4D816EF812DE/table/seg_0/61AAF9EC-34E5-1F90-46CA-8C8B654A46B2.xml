@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61AAF9EC-34E5-1F90-46CA-8C8B654A46B2" name="CLIENTE">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 08:48:27 UTC</createdTime>
+<generatorID>37D9484F-C347-8B34-1814-4241ADBD4DC4</generatorID>
+<ownerDesignName>factura-cliente</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CEA656C8-193D-3653-E04D-9C7C2FF11D02">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 08:48:27 UTC</createdTime>
+<generatorID>734B2277-194A-9B7C-F718-7FF17C3EDC70</generatorID>
+<ownerDesignName>factura-cliente</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FB04124E-6EA4-61D5-B533-7AFD59086541</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="AD74F471-1777-FE8F-D64D-340F45E924B5">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 08:48:27 UTC</createdTime>
+<generatorID>CAF879BF-76D3-E2FF-576F-476E3A7248ED</generatorID>
+<ownerDesignName>factura-cliente</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3321224F-2051-132F-C01C-32DFC1156C6A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17CC5493-3122-7D44-6E9A-6C8F94184482" name="CLIENTE_PK">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 08:48:27 UTC</createdTime>
+<generatorID>67E8ABF6-A82E-7DAD-9310-8D32D646831D</generatorID>
+<ownerDesignName>factura-cliente</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEA656C8-193D-3653-E04D-9C7C2FF11D02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
