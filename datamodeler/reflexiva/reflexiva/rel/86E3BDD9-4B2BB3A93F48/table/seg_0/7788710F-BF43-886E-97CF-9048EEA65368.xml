@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7788710F-BF43-886E-97CF-9048EEA65368" name="PIEZA">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 09:46:43 UTC</createdTime>
+<generatorID>238C864E-1C08-8DEE-EFBF-5940ED2269F9</generatorID>
+<ownerDesignName>reflexiva</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8858D33F-BE06-AEC0-69C6-633105E50330">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 09:46:43 UTC</createdTime>
+<generatorID>8F5AFE6E-4DFD-CF9C-B7DC-F075167422C0</generatorID>
+<ownerDesignName>reflexiva</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FB04124E-6EA4-61D5-B533-7AFD59086541</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="54BFE5A3-A1F0-B503-A55C-E9D02079347B">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 09:46:43 UTC</createdTime>
+<generatorID>07897848-FEA5-170C-E74B-10AC328A0921</generatorID>
+<ownerDesignName>reflexiva</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3321224F-2051-132F-C01C-32DFC1156C6A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PIEZA_id" id="A8D4662C-6411-85BE-AC3D-2C7B33E3BCCC">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 09:46:43 UTC</createdTime>
+<generatorID>32808447-E523-8021-B381-41F314227099</generatorID>
+<ownerDesignName>reflexiva</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FB04124E-6EA4-61D5-B533-7AFD59086541</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83897FAA-D706-BC28-716A-915B69F0BB25" referredColumn="8858D33F-BE06-AEC0-69C6-633105E50330"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="053E4A0F-F9A6-5BFA-5E87-55F26881B2A8" name="PIEZA_PK">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 09:46:43 UTC</createdTime>
+<generatorID>A954D7E6-0A90-D78F-6A83-DEC50A35BC8E</generatorID>
+<ownerDesignName>reflexiva</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8858D33F-BE06-AEC0-69C6-633105E50330"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48C43A4E-F3BB-DF55-488C-C1F06EF9705C" name="PIEZA_PIEZA_FK">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 09:46:43 UTC</createdTime>
+<generatorID>C6C74F9B-8FB0-65AF-583A-2A3237179CE5</generatorID>
+<ownerDesignName>reflexiva</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8D4662C-6411-85BE-AC3D-2C7B33E3BCCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

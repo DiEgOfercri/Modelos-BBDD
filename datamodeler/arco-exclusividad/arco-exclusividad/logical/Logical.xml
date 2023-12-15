@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="248BC96B-2D33-F8DE-F0B6-BC2119DB65E7" mainViewID="5C36D153-9407-96A7-7EEA-44E1C828F13F">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:36:22 UTC</createdTime>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="82B73F48-4C4C-F1B4-FFC3-164FB7180BC0" mainViewID="E6356263-0444-322A-F395-00B5E385AE3F">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 09:41:39 UTC</createdTime>
+<ownerDesignName>reflexiva</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

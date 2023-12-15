@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="arco-exclusividad" id="2DDEEBCC-A14F-1DAC-BEC1-E078090F306C" version="3.5">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:36:22 UTC</createdTime>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2DDEEBCC-A14F-1DAC-BEC1-E078090F306C</designId>
+</OSDM_Design>

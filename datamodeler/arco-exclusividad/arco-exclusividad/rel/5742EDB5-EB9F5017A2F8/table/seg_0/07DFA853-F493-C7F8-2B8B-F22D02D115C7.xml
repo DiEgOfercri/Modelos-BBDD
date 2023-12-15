@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07DFA853-F493-C7F8-2B8B-F22D02D115C7" name="CONTRATO">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:46:00 UTC</createdTime>
+<generatorID>638A9799-FCC0-F1A7-0F2D-0632817C6C4A</generatorID>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9E15A132-6A29-B088-9C03-BF02882E16FE">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:46:00 UTC</createdTime>
+<generatorID>635C0EF4-5B6E-21DB-2991-ACE69D8E0905</generatorID>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FB04124E-6EA4-61D5-B533-7AFD59086541</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="39B2FE42-B1DC-8296-2851-8E79C0399361">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:46:00 UTC</createdTime>
+<generatorID>81757AA9-8A00-276E-C187-60E1F87275BD</generatorID>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>309E717F-90E1-3160-12D8-E42A1C9FF3CD</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTICULAR_id" id="E6A7EDB3-8631-0DAA-5756-D021EC18D825">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:46:00 UTC</createdTime>
+<generatorID>2CDC8D3D-7ADD-D282-482C-65404AB6897A</generatorID>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FB04124E-6EA4-61D5-B533-7AFD59086541</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46DF2ADF-4D99-B9D6-D784-A3EAAAA438EA" referredColumn="DDE56246-C009-7128-DC8C-FAA3FF206D5C"/>
+</associations>
+</Column>
+<Column name="EMPRESA_id" id="905C7780-C194-E403-7C1B-277EE1AE3943">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:46:00 UTC</createdTime>
+<generatorID>933D506E-40C3-197B-8EBB-5B201BFCACF8</generatorID>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FB04124E-6EA4-61D5-B533-7AFD59086541</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3B5192D-9BB5-99BA-48B7-D4280348620C" referredColumn="412720CD-00B7-5454-0AF0-4035C64D8700"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2C4D658-C93E-D345-830F-1FE7725E06EB" name="CONTRATO_PK">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:46:00 UTC</createdTime>
+<generatorID>404EB691-C08C-7853-744E-C604E162C63F</generatorID>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E15A132-6A29-B088-9C03-BF02882E16FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60AF4117-D56D-4758-11F0-67D47BD4A4B4" name="CONTRATO_EMPRESA_FK">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:46:00 UTC</createdTime>
+<generatorID>6201B028-DD0D-6C6F-BB3F-215AB4B0BC90</generatorID>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="905C7780-C194-E403-7C1B-277EE1AE3943"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34CA8D3B-9017-E8F2-32E6-9701D4F12780" name="CONTRATO_PARTICULAR_FK">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:46:00 UTC</createdTime>
+<generatorID>348B5679-C2DD-ED30-467C-7A2502D3575E</generatorID>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6A7EDB3-8631-0DAA-5756-D021EC18D825"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

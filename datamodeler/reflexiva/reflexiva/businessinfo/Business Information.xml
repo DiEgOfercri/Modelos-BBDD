@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="5287AF1A-C6DE-5D4D-4F2C-F158ADBA0A52">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 09:41:39 UTC</createdTime>
+<ownerDesignName>reflexiva</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

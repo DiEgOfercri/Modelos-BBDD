@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPRESA-CONTRATO" directorySegmentName="seg_0" id="6201B028-DD0D-6C6F-BB3F-215AB4B0BC90">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:45:25 UTC</createdTime>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<engineerTo>
+<item key="5742EDB5-830C-B445-8EBF-EB9F5017A2F8" value="true"/>
+</engineerTo>
+<sourcePk>372233E8-CC07-03DA-0A14-96A8A3689826</sourcePk>
+<arc>DD2DF32F-E137-3BF2-D0A4-6E57A63208AD</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6A15C095-0E84-0D08-AC6F-16E33CAE0DDA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>638A9799-FCC0-F1A7-0F2D-0632817C6C4A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="reflexiva" id="A0375F43-9014-94EB-A57C-06C6EC118EC3" version="3.5">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-12 09:41:39 UTC</createdTime>
+<ownerDesignName>reflexiva</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A0375F43-9014-94EB-A57C-06C6EC118EC3</designId>
+</OSDM_Design>

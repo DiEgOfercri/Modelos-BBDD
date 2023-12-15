@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="75EADA50-5F89-7275-BEFF-22B5C62ABAA9">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:36:22 UTC</createdTime>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

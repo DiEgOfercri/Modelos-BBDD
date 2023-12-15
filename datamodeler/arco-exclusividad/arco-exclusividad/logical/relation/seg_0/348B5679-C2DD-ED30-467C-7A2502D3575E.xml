@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PARTICULAR-CONTRATO" directorySegmentName="seg_0" id="348B5679-C2DD-ED30-467C-7A2502D3575E">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:45:13 UTC</createdTime>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<engineerTo>
+<item key="5742EDB5-830C-B445-8EBF-EB9F5017A2F8" value="true"/>
+</engineerTo>
+<sourcePk>86744B2A-4A36-D481-CF49-42B2C2F252A0</sourcePk>
+<arc>DD2DF32F-E137-3BF2-D0A4-6E57A63208AD</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E7323BCD-4A02-9612-C2EB-F7C88DDF931C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>638A9799-FCC0-F1A7-0F2D-0632817C6C4A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

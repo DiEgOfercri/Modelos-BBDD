@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="DEAD0FDC-C347-D86A-BB98-81ADC466D02B">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:36:22 UTC</createdTime>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="46DF2ADF-4D99-B9D6-D784-A3EAAAA438EA" containerWithKeyObject="07DFA853-F493-C7F8-2B8B-F22D02D115C7" localFKIndex="34CA8D3B-9017-E8F2-32E6-9701D4F12780" name="CONTRATO_PARTICULAR_FK">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:46:00 UTC</createdTime>
+<generatorID>348B5679-C2DD-ED30-467C-7A2502D3575E</generatorID>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<referredTableLongName>PARTICULAR</referredTableLongName>
+<arc>97529C9F-75A8-1566-1DA3-DF5B16C9D7C7</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9DA29E8C-FDA6-8043-4B01-93649C9C521D</referredTableID>
+<keyObject>3C16AEB6-A883-E7C7-CCD2-865341FC249D</keyObject>
+<referredKeyID>3C16AEB6-A883-E7C7-CCD2-865341FC249D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

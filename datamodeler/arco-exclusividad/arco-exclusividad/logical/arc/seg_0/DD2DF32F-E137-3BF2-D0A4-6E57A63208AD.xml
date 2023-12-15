@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="DD2DF32F-E137-3BF2-D0A4-6E57A63208AD" name="Arc_1">
+<createdBy>dfc25</createdBy>
+<createdTime>2023-12-15 07:48:32 UTC</createdTime>
+<ownerDesignName>arco-exclusividad</ownerDesignName>
+<engineerTo>
+<item key="5742EDB5-830C-B445-8EBF-EB9F5017A2F8" value="true"/>
+</engineerTo>
+<entity>638A9799-FCC0-F1A7-0F2D-0632817C6C4A</entity>
+<relations>
+<relationID>348B5679-C2DD-ED30-467C-7A2502D3575E</relationID>
+<relationID>6201B028-DD0D-6C6F-BB3F-215AB4B0BC90</relationID>
+</relations>
+</Arc>
