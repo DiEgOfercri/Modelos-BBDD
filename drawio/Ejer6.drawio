@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T08:36:13.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dQiT6rLHZa3aD2Vh9lT7" version="22.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T08:36:31.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="o95iHnnmiNjIfpCs23SU" version="22.1.9" type="github">
   <diagram name="Página-1" id="l5P8DeTmiwiy51Mtxco_">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,7 +130,7 @@
         <mxCell id="n0TinzeqDu08c-ZW52Q4-8" value="PROPIEDAD" style="swimlane;whiteSpace=wrap;html=1;fillColor=#97D077;" parent="1" vertex="1">
           <mxGeometry x="589" y="540" width="200" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="n0TinzeqDu08c-ZW52Q4-9" value="&lt;b style=&quot;font-size: 17px;&quot;&gt;# propiedadId&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PK&lt;/b&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;ref_catastral&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NN&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;U&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;dirección" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" parent="n0TinzeqDu08c-ZW52Q4-8" vertex="1">
+        <mxCell id="n0TinzeqDu08c-ZW52Q4-9" value="&lt;b style=&quot;font-size: 17px;&quot;&gt;# propiedadId&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PK&lt;/b&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;ref_catastral&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NN&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;U&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;dirección" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" parent="n0TinzeqDu08c-ZW52Q4-8" vertex="1">
           <mxGeometry x="10" y="30" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="n0TinzeqDu08c-ZW52Q4-19" value="FK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
