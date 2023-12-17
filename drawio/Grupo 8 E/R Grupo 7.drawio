@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T15:34:10.374Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3isXfiaypOnX2c2rndhu" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T15:36:11.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="HNUmCLVQEnNiYlqtdpP1" version="22.1.11" type="github">
   <diagram name="Página-1" id="_bR8Y0PelfN_u2xStO4r">
     <mxGraphModel dx="2514" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
         <mxCell id="4WxtduSmjNVkcB8dckDW-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4WxtduSmjNVkcB8dckDW-14" target="4WxtduSmjNVkcB8dckDW-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4WxtduSmjNVkcB8dckDW-14" value="Dietas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
+        <mxCell id="4WxtduSmjNVkcB8dckDW-14" value="Dieta" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
           <mxGeometry x="260" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4WxtduSmjNVkcB8dckDW-151" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4WxtduSmjNVkcB8dckDW-15" target="4WxtduSmjNVkcB8dckDW-36">
@@ -67,7 +67,7 @@
         <mxCell id="4WxtduSmjNVkcB8dckDW-17" value="zona cuerpo" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCE9F;" vertex="1" parent="1">
           <mxGeometry x="990" y="250" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4WxtduSmjNVkcB8dckDW-18" value="Recetas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
+        <mxCell id="4WxtduSmjNVkcB8dckDW-18" value="Receta" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
           <mxGeometry x="260" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4WxtduSmjNVkcB8dckDW-146" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4WxtduSmjNVkcB8dckDW-19" target="4WxtduSmjNVkcB8dckDW-2">
