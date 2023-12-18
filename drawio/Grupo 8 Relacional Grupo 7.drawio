@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T16:14:16.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bes7hnO6Orzd-FXiqJRh" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-18T16:20:55.492Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xuS40JTy7IYe53RrQg99" version="22.1.11" type="github">
   <diagram name="Página-1" id="gjtRLzLxao2fpndlLqgI">
-    <mxGraphModel dx="3217" dy="2399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -206,7 +206,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w3PoWwuRmh8IUbwpKN5N-62" value="USUARIO - RUTINA" style="swimlane;whiteSpace=wrap;html=1;fillColor=#A680B8;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="470" width="201" height="110" as="geometry" />
+          <mxGeometry x="-500" y="470" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="w3PoWwuRmh8IUbwpKN5N-63" value="&lt;div style=&quot;text-align: right;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;dietaId&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NN&lt;/b&gt;&lt;/div&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;recetaId&lt;/b&gt;&lt;span style=&quot;font-weight: bold; white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;b&gt;NN&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="w3PoWwuRmh8IUbwpKN5N-62">
           <mxGeometry x="10" y="30" width="180" height="70" as="geometry" />
@@ -224,9 +224,21 @@
           <mxGeometry x="10" y="30" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="w3PoWwuRmh8IUbwpKN5N-75" value="REGISTRO" style="swimlane;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="60" width="200" height="110" as="geometry" />
+          <mxGeometry x="-230" y="60" width="200" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="w3PoWwuRmh8IUbwpKN5N-76" value="&lt;b style=&quot;font-size: 17px;&quot;&gt;# registroId&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;PK&lt;/b&gt;&lt;br&gt;&lt;br&gt;usuarioId&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NN" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="w3PoWwuRmh8IUbwpKN5N-75">
+        <mxCell id="w3PoWwuRmh8IUbwpKN5N-76" value="&lt;b style=&quot;font-size: 17px;&quot;&gt;# registroId&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;PK&lt;/b&gt;&lt;br&gt;&lt;br&gt;fecha&lt;br&gt;&lt;br&gt;usuarioId&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NN" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="w3PoWwuRmh8IUbwpKN5N-75">
+          <mxGeometry x="10" y="30" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w3PoWwuRmh8IUbwpKN5N-79" value="PESO" style="swimlane;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="140" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w3PoWwuRmh8IUbwpKN5N-80" value="&lt;b style=&quot;font-size: 17px;&quot;&gt;# registroId&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;PK&lt;/b&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;peso" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="w3PoWwuRmh8IUbwpKN5N-79">
+          <mxGeometry x="10" y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w3PoWwuRmh8IUbwpKN5N-81" value="FUERZA" style="swimlane;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="-10" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w3PoWwuRmh8IUbwpKN5N-82" value="&lt;b style=&quot;font-size: 17px;&quot;&gt;# registroId&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;PK&lt;/b&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;fuerza" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="w3PoWwuRmh8IUbwpKN5N-81">
           <mxGeometry x="10" y="30" width="180" height="70" as="geometry" />
         </mxCell>
       </root>
