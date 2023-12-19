@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T09:38:46.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="D0ik5fKelNPqmZkmUNkX" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T09:39:07.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="asi76ARLIye0jNha_dDs" version="22.1.11" type="github">
   <diagram name="Página-1" id="l5P8DeTmiwiy51Mtxco_">
     <mxGraphModel dx="1502" dy="556" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
         <mxCell id="n0TinzeqDu08c-ZW52Q4-6" value="TIENE" style="swimlane;whiteSpace=wrap;html=1;fillColor=#A680B8;" parent="1" vertex="1">
           <mxGeometry x="309" y="540" width="210" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="n0TinzeqDu08c-ZW52Q4-7" value="&lt;div style=&quot;text-align: right;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;personaId&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NN&lt;/b&gt;&lt;/div&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;propiedadId&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NN&lt;br&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;porcentaje" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" parent="n0TinzeqDu08c-ZW52Q4-6" vertex="1">
+        <mxCell id="n0TinzeqDu08c-ZW52Q4-7" value="&lt;div style=&quot;text-align: right;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;personaId&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NN&lt;/b&gt;&lt;/div&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;casaId&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;NN&lt;br&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;porcentaje" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" parent="n0TinzeqDu08c-ZW52Q4-6" vertex="1">
           <mxGeometry x="10" y="30" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="n0TinzeqDu08c-ZW52Q4-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0.5;" parent="n0TinzeqDu08c-ZW52Q4-6" vertex="1">
@@ -130,7 +130,7 @@
         <mxCell id="n0TinzeqDu08c-ZW52Q4-8" value="CASA" style="swimlane;whiteSpace=wrap;html=1;fillColor=#97D077;" parent="1" vertex="1">
           <mxGeometry x="589" y="540" width="200" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="n0TinzeqDu08c-ZW52Q4-9" value="&lt;b style=&quot;font-size: 17px;&quot;&gt;# casaId&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PK&lt;/b&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;refCatastral&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NN&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;U&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;dirección" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" parent="n0TinzeqDu08c-ZW52Q4-8" vertex="1">
+        <mxCell id="n0TinzeqDu08c-ZW52Q4-9" value="&lt;b style=&quot;font-size: 17px;&quot;&gt;# casaId&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;PK&lt;/b&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;refCatastral&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;NN&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;U&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;dirección" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;" parent="n0TinzeqDu08c-ZW52Q4-8" vertex="1">
           <mxGeometry x="10" y="30" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="n0TinzeqDu08c-ZW52Q4-19" value="FK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
